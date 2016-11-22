@@ -3,7 +3,7 @@ services:
   web:
     build:
       context: './src/'
-      dockerfile: 'not-dockerfile.Dockerfile'
+      dockerfile: 'not-so-dockerfile.Dockerfile'
     command: "node index.js"
     ports:
       - "1000"
