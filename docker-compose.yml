@@ -5,6 +5,9 @@ services:
       context: './src/'
       dockerfile: 'not-so-dockerfile.Dockerfile'
     command: "node index.js"
+    expose:
+      - "5000"
+      - "6000"
     ports:
       - "1000"
       - "2000"
