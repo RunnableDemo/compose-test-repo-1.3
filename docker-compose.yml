@@ -7,3 +7,5 @@ services:
     command: "node index.js"
     expose:
       - "5000"
+    ports:
+      - "6000:5000"
